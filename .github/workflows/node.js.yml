@@ -17,8 +17,7 @@ jobs:
         cache: 'yarn'
     - run: yarn --version
     - run: corepack enable
-    - run: "export YARN_VERSION=\"$(node -e 'console.log(require(\"./package\").volta.yarn)')\""
-    - run: "corepack prepare yarn@$YARN_VERSION --activate"
+    - run: corepack prepare yarn@3.6.1 --activate
     - run: yarn --version
     - run: yarn install --immutable
     - run: yarn test
