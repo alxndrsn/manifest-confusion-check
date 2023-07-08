@@ -170,6 +170,7 @@ async function processModulesDir(report, _path) {
     const ePath = Path.join(_path, entry.name);
     if(entry.isFile()) log('Skipping file:', ePath);
     else if(entry.isDirectory()) jobs.push(processPackageDir(report, ePath));
+    else if(entry.isSymbolicLink()) log('Skipping symlink:', ePath);
     else report.push({ path:ePath, type:'ERROR', message:`No handling for directory entry of type '${entry.type}'.`, debug:[entry.path] });
   }
 
