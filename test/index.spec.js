@@ -8,7 +8,7 @@ describe('Calling this on itself', () => {
     // given
     const expected = JSON.parse(fs.readFileSync('./test/expected-report.json'));
     // when
-    const actual = JSON.parse(execSync('yarn start'));
+    const actual = JSON.parse(execSync('node ./src/index.js'));
 
     // then
     assert.deepEqual(actual, expected);
