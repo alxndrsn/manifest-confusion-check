@@ -97,7 +97,7 @@ async function processNpmLockfile(_report) {
         reject(err);
       }
     }, nextDelay)));
-    nextDelay += 200; // 5 reqs/second
+    nextDelay += 100; // 10 reqs/second
   }
 
   return Promise.all(jobs);
