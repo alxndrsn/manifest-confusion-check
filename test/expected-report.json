@@ -252,6 +252,11 @@
       "message": "Checking for duplicate keys not yet implemented."
     },
     {
+      "path": "https://registry.npmjs.com/fetch-retry",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
       "path": "https://registry.npmjs.com/file-entry-cache",
       "type": "TODO",
       "message": "Checking for duplicate keys not yet implemented."
@@ -492,6 +497,11 @@
       "message": "Checking for duplicate keys not yet implemented."
     },
     {
+      "path": "https://registry.npmjs.com/node-fetch",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
       "path": "https://registry.npmjs.com/normalize-path",
       "type": "TODO",
       "message": "Checking for duplicate keys not yet implemented."
@@ -667,6 +677,11 @@
       "message": "Checking for duplicate keys not yet implemented."
     },
     {
+      "path": "https://registry.npmjs.com/tr46",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
       "path": "https://registry.npmjs.com/type-check",
       "type": "TODO",
       "message": "Checking for duplicate keys not yet implemented."
@@ -683,6 +698,16 @@
     },
     {
       "path": "https://registry.npmjs.com/uri-js",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/webidl-conversions",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/whatwg-url",
       "type": "TODO",
       "message": "Checking for duplicate keys not yet implemented."
     },
@@ -1322,6 +1347,16 @@
       "message": "Checking for duplicate keys not yet implemented."
     },
     {
+      "path": "node_modules/fetch-retry/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/fetch-retry/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
       "path": "node_modules/file-entry-cache/package.json",
       "type": "OK",
       "message": "OK"
@@ -1798,6 +1833,16 @@
     },
     {
       "path": "node_modules/natural-compare/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/node-fetch/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/node-fetch/package.json",
       "type": "TODO",
       "message": "Checking for duplicate keys not yet implemented."
     },
@@ -2127,6 +2172,16 @@
       "message": "Checking for duplicate keys not yet implemented."
     },
     {
+      "path": "node_modules/tr46/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/tr46/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
       "path": "node_modules/type-check/package.json",
       "type": "OK",
       "message": "OK"
@@ -2163,6 +2218,26 @@
     },
     {
       "path": "node_modules/uri-js/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/webidl-conversions/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/webidl-conversions/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/whatwg-url/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/whatwg-url/package.json",
       "type": "TODO",
       "message": "Checking for duplicate keys not yet implemented."
     },
