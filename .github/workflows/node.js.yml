@@ -16,5 +16,8 @@ jobs:
         node-version: 18.16.1
         cache: 'yarn'
     - run: yarn --version
+    - run: corepack enable
+    - run: "export YARN_VERSION=\"$(node -e 'console.log(require(\"./package\").volta.yarn)'\""
+    - run: "corepack prepare yarn@$YARN_VERSION --activate"
     - run: yarn install --immutable
     - run: yarn test
