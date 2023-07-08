@@ -7,6 +7,7 @@ const fsPromises = require('node:fs/promises');
 const Path = require('path');
 const { URL } = require('node:url'); // eslint-disable-line no-shadow
 const fetch = require('fetch-retry')(require('node-fetch')); // eslint-disable-line no-shadow
+const getDuplicateKeys = require('./get-duplicate-keys');
 
 const $0 = '[manifest-confusion-check]';
 
@@ -82,7 +83,7 @@ async function processNpmLockfile(_report) {
 
   const rawPkgLock = fs.readFileSync(PKG_LOCK, { encoding:'utf8' }); // TODO confirm utf8 is a valid assumption
 
-  detectDuplicateKeys(rep, PKG_LOCK, rawPkgLock);
+  await detectDuplicateKeys(rep, PKG_LOCK, rawPkgLock);
 
   const packageLock = parseJson(rep, PKG_LOCK, rawPkgLock);
   if(!packageLock) {
@@ -214,7 +215,7 @@ async function processPackageDir(report, _path) {
 async function processPackageJson(report, _path, expectedName) {
   const rawLocalPkg = fs.readFileSync(_path, { encoding:'utf8' }); // TODO confirm utf8 is a valid assumption
 
-  detectDuplicateKeys(report, _path, rawLocalPkg);
+  await detectDuplicateKeys(report, _path, rawLocalPkg);
 
   const localPkg = parseJson(report, _path, rawLocalPkg);
   if(!localPkg) return;
@@ -241,7 +242,7 @@ async function comparePackageJsonWith(report, _path, pkg, requestPackageName) {
   }
   const rawRemoteManifest = manifestRequestRes.body;
 
-  detectDuplicateKeys(report, remotePath, rawRemoteManifest);
+  await detectDuplicateKeys(report, remotePath, rawRemoteManifest);
 
   const remoteManifest = parseJson(report, remotePath, rawRemoteManifest);
   if(!remoteManifest) return;
@@ -287,9 +288,11 @@ function fatalError(message) {
   process.exit(1);
 }
 
-function detectDuplicateKeys(report, _path, rawJson) {
+async function detectDuplicateKeys(report, _path, rawJson) {
   if(typeof rawJson !== 'string') throw new Error('Illegal arg.');
-  repTodo(report, _path, 'Checking for duplicate keys not yet implemented.');
+
+  const dupes = await getDuplicateKeys(rawJson);
+  if(dupes.length) repErr(report, _path, `Duplicate JSON keys found: ${dupes.join(', ')}`);
 }
 
 // TODO there should be some spec for this...  For now, guess.

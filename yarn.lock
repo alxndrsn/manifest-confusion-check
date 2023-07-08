@@ -429,6 +429,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"clarinet@npm:^0.12.5":
+  version: 0.12.5
+  resolution: "clarinet@npm:0.12.5"
+  checksum: 2a7048d9c35fda22daa071365d2687726f746569142ce65b773d470f0d6a7f9f78e823ce8c2aba4d1ccaaf73dd383ecd594f79ca1fe3242713cc67f0184a272d
+  languageName: node
+  linkType: hard
+
 "clean-stack@npm:^2.0.0":
   version: 2.2.0
   resolution: "clean-stack@npm:2.2.0"
@@ -1341,6 +1348,7 @@ __metadata:
   resolution: "manifest-confusion-check@workspace:."
   dependencies:
     chai: ^4.3.7
+    clarinet: ^0.12.5
     darcyclarke-manifest-pkg: ^2.1.15
     eslint: ^8.44.0
     fetch-retry: ^5.0.6
