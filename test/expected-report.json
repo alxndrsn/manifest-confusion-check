@@ -432,6 +432,11 @@
       "message": "Checking for duplicate keys not yet implemented."
     },
     {
+      "path": "https://registry.npmjs.com/lodash",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
       "path": "https://registry.npmjs.com/lodash.merge",
       "type": "TODO",
       "message": "Checking for duplicate keys not yet implemented."
@@ -635,6 +640,26 @@
       "path": "https://registry.npmjs.com/supports-color",
       "type": "TODO",
       "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/test_for_manifest_confusion1",
+      "type": "ERROR",
+      "message": "Package name mismatch: {\"expected\":\"test_manifest_confusion\",\"manifest\":\"test_for_manifest_confusion1\"}"
+    },
+    {
+      "path": "https://registry.npmjs.com/test_for_manifest_confusion1",
+      "type": "ERROR",
+      "message": "Suspect characters detected in package name: 'test_for_manifest_confusion1'."
+    },
+    {
+      "path": "https://registry.npmjs.com/test_for_manifest_confusion1",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/test_manifest_confusion",
+      "type": "ERROR",
+      "message": "Manifest fetch returned non-200 status code '404'"
     },
     {
       "path": "https://registry.npmjs.com/text-table",
@@ -1652,6 +1677,16 @@
       "message": "Checking for duplicate keys not yet implemented."
     },
     {
+      "path": "node_modules/lodash/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/lodash/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
       "path": "node_modules/log-symbols/package.json",
       "type": "OK",
       "message": "OK"
@@ -2060,6 +2095,26 @@
       "path": "node_modules/supports-color/package.json",
       "type": "TODO",
       "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/test_for_manifest_confusion1/package.json",
+      "type": "ERROR",
+      "message": "Package name mismatch: expected 'test_for_manifest_confusion1', but found 'test_manifest_confusion'!"
+    },
+    {
+      "path": "node_modules/test_for_manifest_confusion1/package.json",
+      "type": "ERROR",
+      "message": "Suspect characters detected in package name: 'test_manifest_confusion'."
+    },
+    {
+      "path": "node_modules/test_for_manifest_confusion1/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/test_for_manifest_confusion1/package.json <> https://registry.npmjs.com/test_for_manifest_confusion1",
+      "type": "ERROR",
+      "message": "Key(s) only found in pkg.scripts: 'test'"
     },
     {
       "path": "node_modules/text-table/package.json",

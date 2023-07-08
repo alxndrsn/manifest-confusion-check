@@ -205,9 +205,15 @@ async function processPackageJson(report, _path, expectedName) {
 
 async function comparePackageJsonWith(report, _path, pkg, requestPackageName) {
   const remoteUrl = new URL(requestPackageName, 'https://registry.npmjs.com');
-  const rawRemoteManifest = await httpGet(remoteUrl);
-
   const remotePath = remoteUrl.toString();
+
+  const manifestRequestRes = await httpGet(remoteUrl);
+  if(manifestRequestRes.status !== 200) {
+    repErr(report, remotePath, `Manifest fetch returned non-200 status code '${manifestRequestRes.status}'`);
+    return;
+  }
+  const rawRemoteManifest = manifestRequestRes.body;
+
   detectDuplicateKeys(report, remotePath, rawRemoteManifest);
 
   const remoteManifest = parseJson(report, remotePath, rawRemoteManifest);
@@ -301,14 +307,14 @@ async function httpGet(url) {
 function _httpsGet(url) {
   return new Promise((resolve, reject) => {
     https.get(url, res => {
-      if(res.statusCode !== 200) reject(new Error(`Non-200 response code: ${res.statusCode}`));
+      if(res.statusCode !== 200) return resolve({ status:404 });
       const data = [];
       res.on('error', reject);
       res.on('data', chunk => { data.push(chunk); });
       res.on('end', () => {
         try {
           // TODO should check encoding... or use a proper HTTP lib
-          resolve(Buffer.concat(data).toString('utf8'));
+          resolve({ status:200, body:Buffer.concat(data).toString('utf8') });
         } catch(err) {
           reject(err);
         }

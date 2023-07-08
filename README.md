@@ -19,7 +19,6 @@ node ${PATH_TO_THIS_SOURCE}/src/index.js
 
 * implement `yarn.lock` support
 * publish to `npm`
-* add deps: test_for_manifest_confusion1, very-bad-pkg, imposter-pkg-poc
 
 # See Also
 
