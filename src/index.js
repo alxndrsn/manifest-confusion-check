@@ -220,14 +220,14 @@ async function comparePackageJsonWith(report, _path, pkg, requestPackageName) {
   }
   validatePackage(report, remotePath, manifestPkg);
 
-  if(manifestPkg.name !== requestPackageName) repErr(report, `Package name mismatch: ${JSON.stringify({ expected:requestPackageName, manifest:manifestPkg.name })}`);
+  if(manifestPkg.name !== requestPackageName) repErr(report, remotePath, `Package name mismatch: ${JSON.stringify({ expected:requestPackageName, manifest:manifestPkg.name })}`);
 
   log('pkg:',  pkg);
   log('manifestPkg:', manifestPkg);
 
-  if(pkg.name !== manifestPkg.name) repErr(report, `Package name mismatch: ${JSON.stringify({ expected:pkg.name, manifest:manifestPkg.name })}`);
+  if(pkg.name !== manifestPkg.name) repErr(report, remotePath, `Package name mismatch: ${JSON.stringify({ expected:pkg.name, manifest:manifestPkg.name })}`);
 
-  if(pkg.version !== manifestPkg.version) repErr(report, `Package version mismatch: ${JSON.stringify({ expected:pkg.version, manifest:manifestPkg.version })}`);
+  if(pkg.version !== manifestPkg.version) repErr(report, remotePath, `Package version mismatch: ${JSON.stringify({ expected:pkg.version, manifest:manifestPkg.version })}`);
 
   compareStrStrMaps(report, 'scripts',      pkg, manifestPkg, _path, remotePath);
   compareStrStrMaps(report, 'dependencies', pkg, manifestPkg, _path, remotePath);
