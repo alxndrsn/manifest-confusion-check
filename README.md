@@ -25,6 +25,7 @@ node ${PATH_TO_THIS_SOURCE}/src/index.js
 * `process.exit(1)` if there are errors
 * implement duplicate key checks
 * add licence
+* add github action
 
 # See Also
 
