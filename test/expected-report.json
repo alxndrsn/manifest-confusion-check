@@ -648,11 +648,6 @@
     },
     {
       "path": "https://registry.npmjs.com/test_for_manifest_confusion1",
-      "type": "ERROR",
-      "message": "Suspect characters detected in package name: 'test_for_manifest_confusion1'."
-    },
-    {
-      "path": "https://registry.npmjs.com/test_for_manifest_confusion1",
       "type": "TODO",
       "message": "Checking for duplicate keys not yet implemented."
     },
@@ -2100,11 +2095,6 @@
       "path": "node_modules/test_for_manifest_confusion1/package.json",
       "type": "ERROR",
       "message": "Package name mismatch: expected 'test_for_manifest_confusion1', but found 'test_manifest_confusion'!"
-    },
-    {
-      "path": "node_modules/test_for_manifest_confusion1/package.json",
-      "type": "ERROR",
-      "message": "Suspect characters detected in package name: 'test_manifest_confusion'."
     },
     {
       "path": "node_modules/test_for_manifest_confusion1/package.json",

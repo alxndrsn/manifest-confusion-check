@@ -104,7 +104,7 @@ async function validateNpmPackage(report, { key, version, resolved }) {
     }
 
     const pkgName = key.replaceAll(/(^|(.*\/))node_modules\//g, '');
-    const shortPkgName=pkgName.replace(/^@[-.0-9a-z]+\//, '');
+    const shortPkgName=pkgName.replace(/^@[-_.0-9a-z]+\//, '');
     const resolvedExpected = `https://registry.npmjs.org/${pkgName}/-/${shortPkgName}-${version}.tgz`;
     if(resolved === resolvedExpected) {
       // ref wildcards: so far seen package.json at:
@@ -268,7 +268,7 @@ function detectDuplicateKeys(report, _path, rawJson) {
 // TODO there should be some spec for this...  For now, guess.
 // * should only support lower-case letters, plus digits, dots and dashes, and
 // * an optional org prefix (e.g. "@example/")
-const SAFE_PACKAGE_NAME = /^(@[-.0-9a-z]+\/)?[-.0-9a-z]+$/;
+const SAFE_PACKAGE_NAME = /^(@[-_.0-9a-z]+\/)?[-_.0-9a-z]+$/;
 function detectSuspectPackageName(report, _path, name) {
   if(name.match(SAFE_PACKAGE_NAME)) return;
   repErr(report, _path, `Suspect characters detected in package name: '${name}'.`);
