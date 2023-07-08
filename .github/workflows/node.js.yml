@@ -15,5 +15,6 @@ jobs:
       with:
         node-version: 18.16.1
         cache: 'yarn'
+    - run: yarn --version
     - run: yarn install --immutable
     - run: yarn test
