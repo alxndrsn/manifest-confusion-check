@@ -5,6 +5,7 @@
   "repository": "github:alxndrsn/manifest-confusion-check",
   "scripts": {
     "lint": "eslint .",
+    "release": "git tag $(jq .version package.json) && git push && git push --tags && npm publish",
     "start": "node src/index.js --verbose",
     "test": "yarn lint && yarn test:mocha",
     "test:mocha": "mocha --timeout 10000 --reporter-option maxDiffSize=1000000 ./test/**/*.spec.js"
