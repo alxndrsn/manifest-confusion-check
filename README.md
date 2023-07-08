@@ -21,6 +21,9 @@ node ${PATH_TO_THIS_SOURCE}/src/index.js
 * run HTTP requests in paralllel, with rate limits
 * fix bin script
 * add error codes
+* add repo to `package.json`
+* `process.exit(1)` if there are errors
+* implement duplicate key checks
 
 # See Also
 
