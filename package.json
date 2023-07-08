@@ -7,7 +7,7 @@
     "lint": "eslint .",
     "start": "node src/index.js --verbose",
     "test": "yarn lint && yarn test:mocha",
-    "test:mocha": "mocha --timeout 10000 ./test/**/*.spec.js"
+    "test:mocha": "mocha --timeout 10000 --reporter-option maxDiffSize=1000000 ./test/**/*.spec.js"
   },
   "bin": "node ./src/index.js",
   "volta": {
