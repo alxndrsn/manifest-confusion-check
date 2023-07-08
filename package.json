@@ -7,6 +7,9 @@
     "test": "yarn lint && yarn test:mocha",
     "test:mocha": "mocha --timeout 10000 ./test/**/*.spec.js"
   },
+  "bin": {
+    "manifest-confusion-check": "node ./src/index.js"
+  },
   "volta": {
     "node": "18.16.1",
     "yarn": "3.6.1"
