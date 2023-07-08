@@ -2,6 +2,7 @@
   "name": "manifest-confusion-check",
   "version": "0.1.0",
   "packageManager": "yarn@3.6.1",
+  "repository": "github:alxndrsn/manifest-confusion-check",
   "scripts": {
     "lint": "eslint .",
     "start": "node src/index.js --verbose",
