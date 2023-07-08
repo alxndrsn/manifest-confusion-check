@@ -18,7 +18,6 @@ node ${PATH_TO_THIS_SOURCE}/src/index.js
 # TODO
 
 * implement `yarn.lock` support
-* run HTTP requests in paralllel, with rate limits - see https://github.com/npm/feedback/discussions/658
 * fix bin script
 * add error codes
 * `process.exit(1)` if there are errors

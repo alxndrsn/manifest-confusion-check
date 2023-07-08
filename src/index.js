@@ -1,9 +1,10 @@
-const { execSync } = require('node:child_process');
+const { promisify } = require('node:util');
+const exec = promisify(require('node:child_process').exec);
 const fs = require('node:fs');
 const fsPromises = require('node:fs/promises');
-const https = require('https');
 const Path = require('path');
 const { URL } = require('node:url'); // eslint-disable-line no-shadow
+const fetch = require('fetch-retry')(require('node-fetch')); // eslint-disable-line no-shadow
 
 const $0 = '[manifest-confusion-check]';
 
@@ -83,10 +84,23 @@ async function processNpmLockfile(_report) {
     return;
   }
 
+  const jobs = [];
+
   const { packages } = packageLock;
+  let nextDelay = 0;
   for await (const [ key, { version, resolved } ] of Object.entries(packages)) {
-    await validateNpmPackage(rep, { key, version, resolved });
+    // can't use node-fetch delay here because we're using curl.  Add a random delay...
+    jobs.push(new Promise((resolve, reject) => setTimeout(async () => {
+      try {
+        resolve(await validateNpmPackage(rep, { key, version, resolved }));
+      } catch(err) {
+        reject(err);
+      }
+    }, nextDelay)));
+    nextDelay += 200; // 5 reqs/second
   }
+
+  return Promise.all(jobs);
 }
 async function validateNpmPackage(report, { key, version, resolved }) {
   log('validateNpmPackage()', { key, version, resolved });
@@ -110,7 +124,7 @@ async function validateNpmPackage(report, { key, version, resolved }) {
       // ref wildcards: so far seen package.json at:
       //   * package/package.json
       //   * json5/package.json
-      const rawRemotePkg = execSync(`curl --output - ${resolvedExpected} | tar --wildcards -zxO '*/package.json'`).toString();
+      const rawRemotePkg = (await exec(`curl --output - ${resolvedExpected} | tar --wildcards -zxO '*/package.json'`)).stdout.toString();
 
       detectDuplicateKeys(report, resolvedExpected, rawRemotePkg);
 
@@ -146,20 +160,23 @@ async function processNodeModules(report) {
 }
 async function processModulesDir(report, _path) {
   log('processModulesDir()', _path, 'ENTRY');
+  const jobs = [];
 
   const dir = await fsPromises.opendir(_path);
 
   for await (const entry of dir) {
     const ePath = Path.join(_path, entry.name);
     if(entry.isFile()) log('Skipping file:', ePath);
-    else if(entry.isDirectory()) await processPackageDir(report, ePath);
+    else if(entry.isDirectory()) jobs.push(processPackageDir(report, ePath));
     else report.push({ path:ePath, type:'ERROR', message:`No handling for directory entry of type '${entry.type}'.`, debug:[entry.path] });
   }
 
   log('processModulesDir()', _path, 'EXIT');
+  return Promise.all(jobs);
 }
 async function processPackageDir(report, _path) {
   log('processPackageDir()', _path, 'ENTRY');
+  const jobs = [];
 
   const dir = await fsPromises.opendir(_path);
   log(dir);
@@ -172,16 +189,17 @@ async function processPackageDir(report, _path) {
         const lastIndex = posixPath.lastIndexOf(NM_DIR);
         if(lastIndex === -1) throw new Error(`Surprising lack of ${NM_DIR} dir in path '${posixPath}'!`);
         const expectedPackageName = posixPath.substring(lastIndex + NM_DIR.length);
-        await processPackageJson(report, ePath, expectedPackageName);
+        jobs.push(processPackageJson(report, ePath, expectedPackageName));
       }
       else log('Skipping:', ePath);
     } else if(entry.isDirectory()) {
-      if(entry.name === 'node_modules') await processModulesDir(report, ePath);
+      if(entry.name === 'node_modules') jobs.push(processModulesDir(report, ePath));
       else log('Skipping:', ePath);
     } else report.push({ path:ePath, type:'ERROR', message:`No handling for directory entry of type '${entry.type}'.`, debug:[entry.path] });
   }
 
   log('processPackageDir()', _path, 'EXIT');
+  return Promise.all(jobs);
 }
 
 async function processPackageJson(report, _path, expectedName) {
@@ -304,23 +322,10 @@ async function httpGet(url) {
     default: throw new Error(`No support for supplied protocol in url: '${url}'`);
   }
 }
-function _httpsGet(url) {
-  return new Promise((resolve, reject) => {
-    https.get(url, res => {
-      if(res.statusCode !== 200) return resolve({ status:404 });
-      const data = [];
-      res.on('error', reject);
-      res.on('data', chunk => { data.push(chunk); });
-      res.on('end', () => {
-        try {
-          // TODO should check encoding... or use a proper HTTP lib
-          resolve({ status:200, body:Buffer.concat(data).toString('utf8') });
-        } catch(err) {
-          reject(err);
-        }
-      });
-    });
-  });
+async function _httpsGet(url) {
+  const res = await fetch(url, { retries:3, retryDelay:1000 });
+  if(res.ok) return { status:res.status, body:await res.text() };
+  else return { status:res.status };
 }
 
 function parseJson(report, _path, rawJson) {
