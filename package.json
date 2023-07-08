@@ -1,6 +1,6 @@
 {
   "name": "manifest-confusion-check",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "packageManager": "yarn@3.6.1",
   "repository": "github:alxndrsn/manifest-confusion-check",
   "scripts": {
