@@ -15,7 +15,9 @@ const FLAG_YARN = '--yarn';
 const FLAG_NODE_MODULES = '--node_modules';
 const FLAG_HELP = '--help';
 const FLAG_VERBOSE = '--verbose';
-const ALLOWED_FLAGS = [FLAG_NPM, FLAG_YARN, FLAG_NODE_MODULES, FLAG_HELP, FLAG_VERBOSE];
+const FLAG_SUPPRESS_OK = '--suppress-ok';
+const FLAG_SUPPRESS_TODO = '--suppress-todo';
+const ALLOWED_FLAGS = [FLAG_NPM, FLAG_YARN, FLAG_NODE_MODULES, FLAG_HELP, FLAG_VERBOSE, FLAG_SUPPRESS_OK, FLAG_SUPPRESS_TODO];
 
 const PKG_LOCK = 'package-lock.json';
 const YARN_LOCK = 'yarn.lock';
@@ -24,6 +26,8 @@ const NODE_MODULES = 'node_modules';
 const cliArgs = process.argv.slice(2);
 
 const verbose = cliArgs.includes(FLAG_VERBOSE);
+const suppressOks = cliArgs.includes(FLAG_SUPPRESS_OK);
+const suppressTodos = cliArgs.includes(FLAG_SUPPRESS_TODO);
 const log = (...args) => verbose && console.error($0, ...args);
 log('cliArgs:', cliArgs);
 log('pwd:', process.cwd());
@@ -296,12 +300,14 @@ function detectSuspectPackageName(report, _path, name) {
 }
 
 function repTodo(report, path, message) {
+  if(suppressTodos) return;
   return repEntry(report, path, 'TODO', message);
 }
 function repErr(report, path, message) {
   return repEntry(report, path, 'ERROR', message);
 }
 function repOk(report, path) {
+  if(suppressOks) return;
   return repEntry(report, path, 'OK', 'OK');
 }
 function repEntry(report, path, type, message) {
