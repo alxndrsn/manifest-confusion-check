@@ -24,6 +24,7 @@ node ${PATH_TO_THIS_SOURCE}/src/index.js
 * add repo to `package.json`
 * `process.exit(1)` if there are errors
 * implement duplicate key checks
+* add licence
 
 # See Also
 
