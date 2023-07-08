@@ -1,0 +1,22 @@
+{
+  "name": "manifest-confusion-check",
+  "packageManager": "yarn@3.6.1",
+  "scripts": {
+    "lint": "eslint .",
+    "start": "node src/index.js --verbose",
+    "test": "yarn lint && yarn test:mocha",
+    "test:mocha": "mocha --timeout 10000 ./test/**/*.spec.js"
+  },
+  "volta": {
+    "node": "18.16.1",
+    "yarn": "3.6.1"
+  },
+  "dependencies": {
+    "darcyclarke-manifest-pkg": "^2.1.15"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "eslint": "^8.44.0",
+    "mocha": "^10.2.0"
+  }
+}

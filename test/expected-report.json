@@ -1,0 +1,2225 @@
+{
+  "yarn.lock": "TODO: this report has not been implemented yet.",
+  "node_modules": [
+    {
+      "path": "https://registry.npmjs.com/acorn",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/acorn-jsx",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/ajv",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/ansi-colors",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/ansi-regex",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/ansi-styles",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/anymatch",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/argparse",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/assertion-error",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/balanced-match",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/binary-extensions",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/brace-expansion",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/brace-expansion",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/braces",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/browser-stdout",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/callsites",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/camelcase",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/chai",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/chalk",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/check-error",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/chokidar",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/cliui",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/color-convert",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/color-name",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/concat-map",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/cross-spawn",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/darcyclarke-manifest-pkg",
+      "type": "ERROR",
+      "message": "Requested version '3.0.0' not found in remote manifest!"
+    },
+    {
+      "path": "https://registry.npmjs.com/darcyclarke-manifest-pkg",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/debug",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/decamelize",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/deep-eql",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/deep-is",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/diff",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/doctrine",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/emoji-regex",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/escalade",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/escape-string-regexp",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/eslint",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/eslint-scope",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/eslint-visitor-keys",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/espree",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/esquery",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/esrecurse",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/estraverse",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/esutils",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/express",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/fast-deep-equal",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/fast-json-stable-stringify",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/fast-levenshtein",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/fastq",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/file-entry-cache",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/fill-range",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/find-up",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/flat",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/flat-cache",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/flatted",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/fs.realpath",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/get-caller-file",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/get-func-name",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/glob",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/glob",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/glob-parent",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/glob-parent",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/globals",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/graphemer",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/has-flag",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/he",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/ignore",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/import-fresh",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/imurmurhash",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/inflight",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/inherits",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/is-binary-path",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/is-extglob",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/is-fullwidth-code-point",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/is-glob",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/is-number",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/is-path-inside",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/is-plain-obj",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/is-unicode-supported",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/isexe",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/js-yaml",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/json-schema-traverse",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/json-stable-stringify-without-jsonify",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/levn",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/locate-path",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/lodash.merge",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/log-symbols",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/loupe",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/minimatch",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/minimatch",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/minimatch",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/mocha",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/ms",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/ms",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/nanoid",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/natural-compare",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/normalize-path",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/once",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/optionator",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/p-limit",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/p-locate",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/parent-module",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/path-exists",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/path-is-absolute",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/path-key",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/pathval",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/picomatch",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/prelude-ls",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/punycode",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/queue-microtask",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/randombytes",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/readdirp",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/require-directory",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/resolve-from",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/reusify",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/rimraf",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/run-parallel",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/safe-buffer",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/serialize-javascript",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/shebang-command",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/shebang-regex",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/string-width",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/strip-ansi",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/strip-json-comments",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/supports-color",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/supports-color",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/text-table",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/to-regex-range",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/type-check",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/type-detect",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/type-fest",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/uri-js",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/which",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/workerpool",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/wrap-ansi",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/wrappy",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/y18n",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/yargs",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/yargs-parser",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/yargs-parser",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/yargs-unparser",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "https://registry.npmjs.com/yocto-queue",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/.bin/_mocha",
+      "type": "ERROR",
+      "message": "No handling for directory entry of type 'undefined'.",
+      "debug": [
+        null
+      ]
+    },
+    {
+      "path": "node_modules/.bin/acorn",
+      "type": "ERROR",
+      "message": "No handling for directory entry of type 'undefined'.",
+      "debug": [
+        null
+      ]
+    },
+    {
+      "path": "node_modules/.bin/eslint",
+      "type": "ERROR",
+      "message": "No handling for directory entry of type 'undefined'.",
+      "debug": [
+        null
+      ]
+    },
+    {
+      "path": "node_modules/.bin/flat",
+      "type": "ERROR",
+      "message": "No handling for directory entry of type 'undefined'.",
+      "debug": [
+        null
+      ]
+    },
+    {
+      "path": "node_modules/.bin/he",
+      "type": "ERROR",
+      "message": "No handling for directory entry of type 'undefined'.",
+      "debug": [
+        null
+      ]
+    },
+    {
+      "path": "node_modules/.bin/js-yaml",
+      "type": "ERROR",
+      "message": "No handling for directory entry of type 'undefined'.",
+      "debug": [
+        null
+      ]
+    },
+    {
+      "path": "node_modules/.bin/mocha",
+      "type": "ERROR",
+      "message": "No handling for directory entry of type 'undefined'.",
+      "debug": [
+        null
+      ]
+    },
+    {
+      "path": "node_modules/.bin/nanoid",
+      "type": "ERROR",
+      "message": "No handling for directory entry of type 'undefined'.",
+      "debug": [
+        null
+      ]
+    },
+    {
+      "path": "node_modules/.bin/node-which",
+      "type": "ERROR",
+      "message": "No handling for directory entry of type 'undefined'.",
+      "debug": [
+        null
+      ]
+    },
+    {
+      "path": "node_modules/.bin/rimraf",
+      "type": "ERROR",
+      "message": "No handling for directory entry of type 'undefined'.",
+      "debug": [
+        null
+      ]
+    },
+    {
+      "path": "node_modules/acorn-jsx/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/acorn-jsx/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/acorn/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/acorn/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/ajv/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/ajv/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/ansi-colors/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/ansi-colors/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/ansi-regex/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/ansi-regex/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/ansi-styles/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/ansi-styles/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/anymatch/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/anymatch/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/argparse/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/argparse/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/assertion-error/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/assertion-error/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/balanced-match/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/balanced-match/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/binary-extensions/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/binary-extensions/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/brace-expansion/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/brace-expansion/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/braces/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/braces/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/browser-stdout/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/browser-stdout/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/callsites/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/callsites/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/camelcase/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/camelcase/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/chai/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/chai/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/chalk/node_modules/supports-color/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/chalk/node_modules/supports-color/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/chalk/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/chalk/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/check-error/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/check-error/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/chokidar/node_modules/glob-parent/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/chokidar/node_modules/glob-parent/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/chokidar/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/chokidar/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/chokidar/package.json <> https://registry.npmjs.com/chokidar",
+      "type": "ERROR",
+      "message": "Key(s) only found in pkg.dependencies: 'fsevents'"
+    },
+    {
+      "path": "node_modules/cliui/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/cliui/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/color-convert/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/color-convert/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/color-name/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/color-name/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/concat-map/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/concat-map/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/cross-spawn/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/cross-spawn/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/darcyclarke-manifest-pkg/package.json",
+      "type": "ERROR",
+      "message": "Package name mismatch: expected 'darcyclarke-manifest-pkg', but found 'express'!"
+    },
+    {
+      "path": "node_modules/darcyclarke-manifest-pkg/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/darcyclarke-manifest-pkg/package.json <> https://registry.npmjs.com/express",
+      "type": "ERROR",
+      "message": "Key(s) only found in pkg.dependencies: 'sleepover,connect,commander,range-parser,mkdirp,cookie,crc,fresh,methods,send,debug'"
+    },
+    {
+      "path": "node_modules/darcyclarke-manifest-pkg/package.json <> https://registry.npmjs.com/express",
+      "type": "ERROR",
+      "message": "Key(s) only found in pkg.scripts: 'install,prepublish,test'"
+    },
+    {
+      "path": "node_modules/debug/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/debug/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/decamelize/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/decamelize/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/deep-eql/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/deep-eql/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/deep-is/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/deep-is/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/diff/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/diff/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/doctrine/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/doctrine/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/emoji-regex/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/emoji-regex/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/escalade/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/escalade/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/escape-string-regexp/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/escape-string-regexp/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/eslint-scope/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/eslint-scope/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/eslint-visitor-keys/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/eslint-visitor-keys/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/eslint/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/eslint/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/espree/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/espree/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/esquery/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/esquery/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/esrecurse/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/esrecurse/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/estraverse/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/estraverse/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/esutils/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/esutils/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/fast-deep-equal/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/fast-deep-equal/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/fast-json-stable-stringify/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/fast-json-stable-stringify/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/fast-levenshtein/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/fast-levenshtein/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/fastq/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/fastq/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/file-entry-cache/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/file-entry-cache/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/fill-range/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/fill-range/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/find-up/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/find-up/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/flat-cache/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/flat-cache/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/flat/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/flat/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/flatted/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/flatted/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/fs.realpath/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/fs.realpath/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/get-caller-file/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/get-caller-file/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/get-func-name/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/get-func-name/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/glob-parent/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/glob-parent/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/glob/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/glob/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/globals/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/globals/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/graphemer/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/graphemer/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/has-flag/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/has-flag/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/he/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/he/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/ignore/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/ignore/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/import-fresh/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/import-fresh/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/imurmurhash/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/imurmurhash/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/inflight/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/inflight/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/inherits/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/inherits/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/is-binary-path/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/is-binary-path/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/is-extglob/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/is-extglob/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/is-fullwidth-code-point/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/is-fullwidth-code-point/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/is-glob/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/is-glob/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/is-number/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/is-number/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/is-path-inside/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/is-path-inside/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/is-plain-obj/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/is-plain-obj/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/is-unicode-supported/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/is-unicode-supported/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/isexe/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/isexe/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/js-yaml/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/js-yaml/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/json-schema-traverse/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/json-schema-traverse/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/json-stable-stringify-without-jsonify/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/json-stable-stringify-without-jsonify/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/levn/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/levn/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/locate-path/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/locate-path/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/lodash.merge/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/lodash.merge/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/log-symbols/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/log-symbols/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/loupe/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/loupe/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/minimatch/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/minimatch/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/mocha/node_modules/glob/node_modules/minimatch/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/mocha/node_modules/glob/node_modules/minimatch/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/mocha/node_modules/glob/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/mocha/node_modules/glob/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/mocha/node_modules/minimatch/node_modules/brace-expansion/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/mocha/node_modules/minimatch/node_modules/brace-expansion/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/mocha/node_modules/minimatch/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/mocha/node_modules/minimatch/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/mocha/node_modules/ms/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/mocha/node_modules/ms/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/mocha/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/mocha/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/ms/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/ms/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/nanoid/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/nanoid/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/natural-compare/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/natural-compare/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/normalize-path/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/normalize-path/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/once/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/once/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/optionator/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/optionator/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/p-limit/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/p-limit/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/p-locate/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/p-locate/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/parent-module/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/parent-module/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/path-exists/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/path-exists/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/path-is-absolute/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/path-is-absolute/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/path-key/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/path-key/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/pathval/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/pathval/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/picomatch/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/picomatch/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/prelude-ls/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/prelude-ls/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/punycode/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/punycode/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/queue-microtask/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/queue-microtask/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/randombytes/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/randombytes/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/readdirp/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/readdirp/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/require-directory/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/require-directory/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/resolve-from/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/resolve-from/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/reusify/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/reusify/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/rimraf/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/rimraf/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/run-parallel/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/run-parallel/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/safe-buffer/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/safe-buffer/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/serialize-javascript/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/serialize-javascript/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/shebang-command/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/shebang-command/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/shebang-regex/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/shebang-regex/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/string-width/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/string-width/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/strip-ansi/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/strip-ansi/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/strip-json-comments/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/strip-json-comments/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/supports-color/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/supports-color/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/text-table/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/text-table/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/to-regex-range/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/to-regex-range/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/type-check/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/type-check/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/type-detect/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/type-detect/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/type-fest/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/type-fest/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/uri-js/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/uri-js/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/which/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/which/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/workerpool/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/workerpool/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/wrap-ansi/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/wrap-ansi/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/wrappy/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/wrappy/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/y18n/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/y18n/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/yargs-parser/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/yargs-parser/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/yargs-unparser/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/yargs-unparser/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/yargs/node_modules/yargs-parser/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/yargs/node_modules/yargs-parser/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/yargs/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/yargs/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    },
+    {
+      "path": "node_modules/yocto-queue/package.json",
+      "type": "OK",
+      "message": "OK"
+    },
+    {
+      "path": "node_modules/yocto-queue/package.json",
+      "type": "TODO",
+      "message": "Checking for duplicate keys not yet implemented."
+    }
+  ]
+}
