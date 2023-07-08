@@ -18,7 +18,9 @@ node ${PATH_TO_THIS_SOURCE}/src/index.js
 # TODO
 
 * implement `yarn.lock` support
-* publish to `npm`
+* run HTTP requests in paralllel, with rate limits
+* fix bin script
+* add error codes
 
 # See Also
 
