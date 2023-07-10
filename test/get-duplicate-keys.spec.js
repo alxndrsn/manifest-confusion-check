@@ -2,7 +2,7 @@ const { assert } = require('chai');
 
 const getDuplicateKeys = require('../src/get-duplicate-keys');
 
-describe.only('getDuplicateKeys()', () => { // TODO remove .only()
+describe('getDuplicateKeys()', () => {
   [
     {
       input: '{ "a":1 }',

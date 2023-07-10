@@ -1,8 +1,5 @@
 module.exports = getDuplicateKeys;
 
-const SEEN_ONCE = 'seen-once';
-const SEEN_MULTIPLE = 'seen-multiple';
-
 function getDuplicateKeys(rawJson) {
   return new Promise((resolve, reject) => {
     const clarinet = require('clarinet');
@@ -17,10 +14,10 @@ function getDuplicateKeys(rawJson) {
       lastKey = key;
       const status = peek.props[key];
       if(!status) {
-        peek.props[key] = SEEN_ONCE;
-      } else if(status === SEEN_ONCE) {
+        peek.props[key] = 1;
+      } else if(status === 1) {
         duplicateKeys.push([ ...keystack.slice(1).map(e => e.key), key ].join('.'));
-        peek.props[key] = SEEN_MULTIPLE;
+        peek.props[key] = 2;
       }
     }
 

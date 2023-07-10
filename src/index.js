@@ -291,7 +291,10 @@ function fatalError(message) {
 async function detectDuplicateKeys(report, _path, rawJson) {
   if(typeof rawJson !== 'string') throw new Error('Illegal arg.');
 
+  console.log('Checking dupes:', _path, rawJson.length / 1000, 'kb');
+  const start = Date.now();
   const dupes = await getDuplicateKeys(rawJson);
+  console.log('  dupe check took:', (Date.now() - start) / 1000, 's');
   if(dupes.length) repErr(report, _path, `Duplicate JSON keys found: ${dupes.join(', ')}`);
 }
 
@@ -304,18 +307,16 @@ function detectSuspectPackageName(report, _path, name) {
   repErr(report, _path, `Suspect characters detected in package name: '${name}'.`);
 }
 
-function repTodo(report, path, message) {
-  if(suppressTodos) return;
-  return repEntry(report, path, 'TODO', message);
-}
 function repErr(report, path, message) {
   return repEntry(report, path, 'ERROR', message);
 }
 function repOk(report, path) {
-  if(suppressOks) return;
   return repEntry(report, path, 'OK', 'OK');
 }
 function repEntry(report, path, type, message) {
+  if(suppressTodos && type === 'TODO') return;
+  if(suppressOks   && type === 'OK')   return;
+
   if(!Array.isArray(report))      throw new Error('report must be an array!');
   if(typeof path !== 'string')    throw new Error('path must be a string!');
   if(typeof type !== 'string')    throw new Error('type must be a string!');
