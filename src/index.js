@@ -131,6 +131,7 @@ async function validateNpmPackage(report, { key, version, resolved }) {
       // ref wildcards: so far seen package.json at:
       //   * package/package.json
       //   * json5/package.json
+      log(`Curling from ${resolvedExpected}...`);
       const rawRemotePkg = (await exec(`curl --output - ${resolvedExpected} | tar --wildcards -zxO '*/package.json'`)).stdout.toString();
 
       detectDuplicateKeys(report, resolvedExpected, rawRemotePkg);
@@ -338,6 +339,7 @@ async function httpGet(url) {
   }
 }
 async function _httpsGet(url) {
+  log(`_httpsGet() ${url}...`);
   const res = await fetch(url, { retries:3, retryDelay:1000 });
   if(res.ok) return { status:res.status, body:await res.text() };
   else return { status:res.status };
