@@ -403,7 +403,7 @@ function compareStrStrMaps(report, name, pkg, manifestPkg, localPath, remotePath
     if(l !== r) mismatched[key] = { pkg:l, manifestPkg:r };
   });
 
-  if(onlyLeft.length)   repErr(report, _path, `Key(s) only found in pkg.${name}: '${onlyLeft}'`);
-  if(onlyRight.length)  repErr(report, _path, `Key(s) only found in manifestPkg.${name}: '${onlyRight}'`);
+  if(onlyLeft.length)   repErr(report, _path, `Key(s) only found in local package.${name}: '${onlyLeft}'`);
+  if(onlyRight.length)  repErr(report, _path, `Key(s) only found in manifest.${name}: '${onlyRight}'`);
   if(mismatched.length) repErr(report, _path, `Mismatched versions found: '${JSON.stringify(mismatched)}'`);
 }

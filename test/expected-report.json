@@ -984,7 +984,7 @@
     {
       "path": "node_modules/chokidar/package.json <> https://registry.npmjs.com/chokidar",
       "type": "ERROR",
-      "message": "Key(s) only found in pkg.dependencies: 'fsevents'"
+      "message": "Key(s) only found in local package.dependencies: 'fsevents'"
     },
     {
       "path": "node_modules/cliui/package.json",
@@ -1049,12 +1049,12 @@
     {
       "path": "node_modules/darcyclarke-manifest-pkg/package.json <> https://registry.npmjs.com/express",
       "type": "ERROR",
-      "message": "Key(s) only found in pkg.dependencies: 'sleepover,connect,commander,range-parser,mkdirp,cookie,crc,fresh,methods,send,debug'"
+      "message": "Key(s) only found in local package.dependencies: 'sleepover,connect,commander,range-parser,mkdirp,cookie,crc,fresh,methods,send,debug'"
     },
     {
       "path": "node_modules/darcyclarke-manifest-pkg/package.json <> https://registry.npmjs.com/express",
       "type": "ERROR",
-      "message": "Key(s) only found in pkg.scripts: 'install,prepublish,test'"
+      "message": "Key(s) only found in local package.scripts: 'install,prepublish,test'"
     },
     {
       "path": "node_modules/debug/package.json",
@@ -2069,7 +2069,7 @@
     {
       "path": "node_modules/test_for_manifest_confusion1/package.json <> https://registry.npmjs.com/test_for_manifest_confusion1",
       "type": "ERROR",
-      "message": "Key(s) only found in pkg.scripts: 'test'"
+      "message": "Key(s) only found in local package.scripts: 'test'"
     },
     {
       "path": "node_modules/text-table/package.json",
