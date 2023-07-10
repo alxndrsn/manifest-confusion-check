@@ -202,6 +202,8 @@ async function processPackageDir(report, _path) {
     } else if(entry.isDirectory()) {
       if(entry.name === 'node_modules') jobs.push(processModulesDir(report, ePath));
       else log('Skipping:', ePath);
+    } else if(entry.isSymbolicLink()) {
+      log('Skipping symlink:', ePath);
     } else report.push({ path:ePath, type:'ERROR', message:`No handling for directory entry of type '${entry.type}'.`, debug:[entry.path] });
   }
 
