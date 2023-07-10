@@ -12,13 +12,12 @@ For details of what is checked, see the source code.
 # Usage
 
 ```sh
-node ${PATH_TO_THIS_SOURCE}/src/index.js
+npx manifest-confusion-check
 ```
 
 # TODO
 
 * implement `yarn.lock` support
-* fix bin script
 * add error codes
 * `process.exit(1)` if there are errors
 * implement duplicate key checks
