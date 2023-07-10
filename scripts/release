@@ -25,6 +25,7 @@ jq '.version="'"$newVersion"'"' package.json > package.json.temp
 mv package.json.temp package.json
 
 log "Applying changes to git..."
+git add package.json
 git commit -m'package.json: bump version number'
 git tag "v$newVersion"
 git push
