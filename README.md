@@ -22,6 +22,7 @@ npx manifest-confusion-check
 * `process.exit(1)` if there are errors
 * implement duplicate key checks
 * add licence
+* on release, update CHANGELOG.md
 
 # See Also
 

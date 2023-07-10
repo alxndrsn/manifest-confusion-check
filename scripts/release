@@ -24,6 +24,8 @@ log "Updating package.json..."
 jq '.version="'"$newVersion"'"' package.json > package.json.temp
 mv package.json.temp package.json
 
+# TODO update CHANGELOG.md
+
 log "Applying changes to git..."
 git add package.json
 git commit -m'package.json: bump version number'
