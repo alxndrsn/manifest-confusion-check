@@ -24,7 +24,7 @@ function getDuplicateKeys(rawJson) {
       }
     }
 
-    parser.onerror = e => { reject(e); };
+    parser.onerror = reject;
     parser.onkey = processKey;
     parser.onopenobject = (firstKey) => {
       keystack.push(peek = { key:lastKey, props:{} });

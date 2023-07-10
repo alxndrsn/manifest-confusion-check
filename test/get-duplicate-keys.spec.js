@@ -2,7 +2,7 @@ const { assert } = require('chai');
 
 const getDuplicateKeys = require('../src/get-duplicate-keys');
 
-describe.only('getDuplicateKeys()', () => {
+describe.only('getDuplicateKeys()', () => { // TODO remove .only()
   [
     {
       input: '{ "a":1 }',
@@ -75,6 +75,28 @@ describe.only('getDuplicateKeys()', () => {
 
       // then
       assert.deepEqual(dupes, expected);
+    });
+  });
+
+  [
+    {
+      input: 'i am not json',
+      expected: 'Non-whitespace before {[.\nLine: 1\nColumn: 1\nChar: 105',
+    },
+    {
+      input: '{}x',
+      expected: 'Bad value\nLine: 1\nColumn: 3\nChar: 120',
+    },
+  ].forEach(({ input, expected }, idx) => {
+    it(`should throw error for example #${idx} (${input})`, async function() {
+      try {
+        // when
+        await getDuplicateKeys(input);
+        assert.fail('Should have thrown an Error.');
+      } catch(err) {
+        // then
+        assert.equal(err.message, expected);
+      }
     });
   });
 });
