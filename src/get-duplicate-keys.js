@@ -1,5 +1,8 @@
 module.exports = getDuplicateKeys;
 
+const SEEN_ONCE = 'seen-once';
+const SEEN_MULTIPLE = 'seen-multiple';
+
 function getDuplicateKeys(rawJson) {
   return new Promise((resolve, reject) => {
     const clarinet = require('clarinet');
@@ -10,30 +13,36 @@ function getDuplicateKeys(rawJson) {
     let peek;
     let lastKey;
 
+    function log(...args) {
+      console.log('[LOG]', ...args, JSON.stringify(keystack));
+    }
+
     function processKey(key) {
-      console.log('processKey()', key, '->', [ ...keystack.slice(1).map(e => e.key), key ].join('.'));
+      log('processKey()', key, '->', [ ...keystack.slice(1).map(e => e.key), key ].join('.'));
       lastKey = key;
       const status = peek.props[key];
-      console.log(key, status);
+      log(key, status);
       if(!status) {
-        peek.props[key] = 1;
-      } else if(status === 1) {
+        peek.props[key] = SEEN_ONCE;
+      } else if(status === SEEN_ONCE) {
         duplicateKeys.push([ ...keystack.slice(1).map(e => e.key), key ].join('.'));
-        peek.props[key] = 2;
+        peek.props[key] = SEEN_MULTIPLE;
       }
     }
 
     parser.onerror = e => { reject(e); };
-    parser.onvalue = () => { /* don't care */ }
-    parser.onopenobject = key => {
-      console.log('onopenobject', key);
-      keystack.push(peek = { key:lastKey, props:{ [key]:1 } });
-    }
+    parser.onvalue = (...args) => { /* don't care */ log('onvalue', args) };
+    parser.onopenobject = (key, ...args) => {
+      if(args.length) throw new Error(`What are these extra args for onopenobject? ${args}`);
+      log('onopenobject');
+      keystack.push(peek = { key:lastKey, props:{} });
+      processKey(key);
+    };
     parser.onkey = key => {
       processKey(key);
     };
-    parser.oncloseobject = () => { keystack.pop(); peek = keystack[keystack.length-1] }; // TODO this will need some attention with more complex examples!
-    parser.onopenarray = () => { /* don't care */ };
+    parser.oncloseobject = (...args) => { log('oncloseobject', args); keystack.pop(); peek = keystack[keystack.length-1]; }; // TODO this will need some attention with more complex examples!
+    parser.onopenarray = (...args) => { /* don't care */ log('onopenarray', args); };
     parser.onclosearray = () => { /* don't care */ };
     parser.onend = () => resolve(duplicateKeys);
 
