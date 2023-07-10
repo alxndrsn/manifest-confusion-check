@@ -13,15 +13,9 @@ function getDuplicateKeys(rawJson) {
     let peek;
     let lastKey;
 
-    function log(...args) {
-      console.log('[LOG]', ...args, JSON.stringify(keystack));
-    }
-
     function processKey(key) {
-      log('processKey()', key, '->', [ ...keystack.slice(1).map(e => e.key), key ].join('.'));
       lastKey = key;
       const status = peek.props[key];
-      log(key, status);
       if(!status) {
         peek.props[key] = SEEN_ONCE;
       } else if(status === SEEN_ONCE) {
@@ -31,19 +25,14 @@ function getDuplicateKeys(rawJson) {
     }
 
     parser.onerror = e => { reject(e); };
-    parser.onvalue = (...args) => { /* don't care */ log('onvalue', args) };
-    parser.onopenobject = (key, ...args) => {
-      if(args.length) throw new Error(`What are these extra args for onopenobject? ${args}`);
-      log('onopenobject');
+    parser.onkey = processKey;
+    parser.onopenobject = (firstKey) => {
       keystack.push(peek = { key:lastKey, props:{} });
-      processKey(key);
+      processKey(firstKey); // onkey not fired for first key o_O
     };
-    parser.onkey = key => {
-      processKey(key);
+    parser.oncloseobject = () => {
+      keystack.pop(); peek = keystack[keystack.length-1];
     };
-    parser.oncloseobject = (...args) => { log('oncloseobject', args); keystack.pop(); peek = keystack[keystack.length-1]; }; // TODO this will need some attention with more complex examples!
-    parser.onopenarray = (...args) => { /* don't care */ log('onopenarray', args); };
-    parser.onclosearray = () => { /* don't care */ };
     parser.onend = () => resolve(duplicateKeys);
 
     parser.write(rawJson).close();
