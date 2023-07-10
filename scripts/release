@@ -12,6 +12,9 @@ if [[ "$status" != "" ]]; then
 	exit 1
 fi
 
+log "Running tests..."
+yarn test
+
 log "Bumping version number..."
 newVersion="$(node -e '
   const v = require("./package").version.split(".");
