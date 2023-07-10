@@ -1,0 +1,32 @@
+#!/bin/bash -eu
+
+log() { echo "[release] $*"; }
+
+log "Checking git status..."
+status="$(git status --porcelain)"
+if [[ "$status" != "" ]]; then
+  git status
+  log "!!!"
+  log "!!! Your working directory is dirty.  Make sure you have committed all changes !!!"
+  log "!!!"
+	exit 1
+fi
+
+log "Bumping version number..."
+newVersion="$(node -e '
+  const v = require("./package").version.split(".");
+	++v[2];
+	console.log(v.join("."));
+')"
+log "New version number: $newVersion"
+
+log "Applying changes to git..."
+git commit -m'package.json: bump version number'
+git tag "v$newVersion"
+git push
+git push --tags
+
+log "Publishing to npm..."
+npm publish
+
+log "Complete."
