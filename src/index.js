@@ -175,7 +175,7 @@ async function processModulesDir(report, _path) {
     if(entry.isFile()) log('Skipping file:', ePath);
     else if(entry.isDirectory()) jobs.push(processPackageDir(report, ePath));
     else if(entry.isSymbolicLink()) log('Skipping symlink:', ePath);
-    else report.push({ path:ePath, type:'ERROR', message:`No handling for directory entry '${entry}'.` });
+    else repErr(report, ePath, `No handling for directory entry '${entry}'.`);
   }
 
   log('processModulesDir()', _path, 'EXIT');
@@ -204,7 +204,7 @@ async function processPackageDir(report, _path) {
       else log('Skipping:', ePath);
     } else if(entry.isSymbolicLink()) {
       log('Skipping symlink:', ePath);
-    } else report.push({ path:ePath, type:'ERROR', message:`No handling for directory entry of this type.`, debug:[entry.path] });
+    } else repErr(report, ePath, `No handling for directory entry of this type.`);
   }
 
   log('processPackageDir()', _path, 'EXIT');
