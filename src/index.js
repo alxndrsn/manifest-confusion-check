@@ -291,7 +291,7 @@ function fatalError(message) {
 async function detectDuplicateKeys(report, _path, rawJson) {
   if(typeof rawJson !== 'string') throw new Error('Illegal arg.');
 
-  console.log('Checking dupes:', _path, rawJson.length / 1000, 'kb');
+  console.log('Checking dupes:', _path, humanSize(rawJson.length));
   const start = Date.now();
   const dupes = await getDuplicateKeys(rawJson);
   console.log('  dupe check took:', (Date.now() - start) / 1000, 's');
@@ -410,4 +410,11 @@ function compareStrStrMaps(report, name, pkg, manifestPkg, localPath, remotePath
   if(onlyLeft.length)   repErr(report, _path, `Key(s) only found in local package.${name}: '${onlyLeft}'`);
   if(onlyRight.length)  repErr(report, _path, `Key(s) only found in manifest.${name}: '${onlyRight}'`);
   if(mismatched.length) repErr(report, _path, `Mismatched versions found: '${JSON.stringify(mismatched)}'`);
+}
+
+function humanSize(b) {
+  if(b > 1_000_000_000) return Math.floor(b/1_000_000_000) + ' GB';
+  if(b >     1_000_000) return Math.floor(b/    1_000_000) + ' MB';
+  if(b >         1_000) return Math.floor(b/        1_000) + ' KB';
+  return b + ' B';
 }
