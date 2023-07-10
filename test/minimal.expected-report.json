@@ -1,0 +1,50 @@
+{
+  "yarn.lock": "TODO: this report has not been implemented yet.",
+  "node_modules": [
+    {
+      "path": "https://registry.npmjs.com/darcyclarke-manifest-pkg",
+      "type": "ERROR",
+      "message": "Requested version '3.0.0' not found in remote manifest!"
+    },
+    {
+      "path": "https://registry.npmjs.com/test_for_manifest_confusion1",
+      "type": "ERROR",
+      "message": "Package name mismatch: {\"expected\":\"test_manifest_confusion\",\"manifest\":\"test_for_manifest_confusion1\"}"
+    },
+    {
+      "path": "https://registry.npmjs.com/test_manifest_confusion",
+      "type": "ERROR",
+      "message": "Manifest fetch returned non-200 status code '404'"
+    },
+    {
+      "path": "node_modules/chokidar/package.json <> https://registry.npmjs.com/chokidar",
+      "type": "ERROR",
+      "message": "Key(s) only found in local package.dependencies: 'fsevents'"
+    },
+    {
+      "path": "node_modules/darcyclarke-manifest-pkg/package.json",
+      "type": "ERROR",
+      "message": "Package name mismatch: expected 'darcyclarke-manifest-pkg', but found 'express'!"
+    },
+    {
+      "path": "node_modules/darcyclarke-manifest-pkg/package.json <> https://registry.npmjs.com/express",
+      "type": "ERROR",
+      "message": "Key(s) only found in local package.dependencies: 'sleepover,connect,commander,range-parser,mkdirp,cookie,crc,fresh,methods,send,debug'"
+    },
+    {
+      "path": "node_modules/darcyclarke-manifest-pkg/package.json <> https://registry.npmjs.com/express",
+      "type": "ERROR",
+      "message": "Key(s) only found in local package.scripts: 'install,prepublish,test'"
+    },
+    {
+      "path": "node_modules/test_for_manifest_confusion1/package.json",
+      "type": "ERROR",
+      "message": "Package name mismatch: expected 'test_for_manifest_confusion1', but found 'test_manifest_confusion'!"
+    },
+    {
+      "path": "node_modules/test_for_manifest_confusion1/package.json <> https://registry.npmjs.com/test_for_manifest_confusion1",
+      "type": "ERROR",
+      "message": "Key(s) only found in local package.scripts: 'test'"
+    }
+  ]
+}
