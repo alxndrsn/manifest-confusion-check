@@ -204,7 +204,7 @@ async function processPackageDir(report, _path) {
       else log('Skipping:', ePath);
     } else if(entry.isSymbolicLink()) {
       log('Skipping symlink:', ePath);
-    } else report.push({ path:ePath, type:'ERROR', message:`No handling for directory entry of type '${entry.type}'.`, debug:[entry.path] });
+    } else report.push({ path:ePath, type:'ERROR', message:`No handling for directory entry of this type.`, debug:[entry.path] });
   }
 
   log('processPackageDir()', _path, 'EXIT');
