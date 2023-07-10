@@ -1348,7 +1348,7 @@ __metadata:
     node-fetch: 2
     test_for_manifest_confusion1: ^1.0.4
   bin:
-    manifest-confusion-check: node ./src/index.js
+    manifest-confusion-check: ./src/index.js
   languageName: unknown
   linkType: soft
 
