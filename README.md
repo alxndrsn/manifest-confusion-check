@@ -1,6 +1,8 @@
 manifest-confusion-check
 ========================
 
+<img src="https://github.com/alxndrsn/manifest-confusion-check/actions/workflows/node.js.yml/badge.svg"/>
+
 Manifest Confusion detecter.
 
 Ref: https://blog.vlt.sh/blog/the-massive-hole-in-the-npm-ecosystem
