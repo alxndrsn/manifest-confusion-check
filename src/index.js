@@ -15,9 +15,10 @@ const FLAG_YARN = '--yarn';
 const FLAG_NODE_MODULES = '--node_modules';
 const FLAG_HELP = '--help';
 const FLAG_VERBOSE = '--verbose';
+const FLAG_VERSION = '--version';
 const FLAG_SUPPRESS_OK = '--suppress-ok';
 const FLAG_SUPPRESS_TODO = '--suppress-todo';
-const ALLOWED_FLAGS = [FLAG_NPM, FLAG_YARN, FLAG_NODE_MODULES, FLAG_HELP, FLAG_VERBOSE, FLAG_SUPPRESS_OK, FLAG_SUPPRESS_TODO];
+const ALLOWED_FLAGS = [FLAG_NPM, FLAG_YARN, FLAG_NODE_MODULES, FLAG_HELP, FLAG_VERBOSE, FLAG_VERSION, FLAG_SUPPRESS_OK, FLAG_SUPPRESS_TODO];
 
 const PKG_LOCK = 'package-lock.json';
 const YARN_LOCK = 'yarn.lock';
@@ -34,6 +35,7 @@ log('pwd:', process.cwd());
 
 if(!cliArgs.every(arg => ALLOWED_FLAGS.includes(arg))) return fatalError(`Unrecognised flags.  Try ${FLAG_HELP}.`);
 
+if(cliArgs.includes(FLAG_VERSION)) return console.log('v' + require('../package.json').version);
 if(cliArgs.includes(FLAG_HELP)) return usage(console.log);
 
 const requestedChecks = {
