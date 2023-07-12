@@ -20,6 +20,7 @@ npx manifest-confusion-check
 # TODO
 
 * implement `yarn.lock` support
+* implement `package-lock.json` version 1 support
 * add error codes
 * `process.exit(1)` if there are errors
 * implement duplicate key checks

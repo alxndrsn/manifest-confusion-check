@@ -92,6 +92,14 @@ async function processNpmLockfile(_report) {
     return;
   }
 
+  const { lockfileVersion } = packageLock;
+  switch(lockfileVersion) {
+    case 2: return processNpmLockfileV2(rep, packageLock);
+    default: throw new Error(`No support for lockfile version: '${lockfileVersion}'`);
+  }
+}
+
+async function processNpmLockfileV2(rep, packageLock) {
   const jobs = [];
 
   const { packages } = packageLock;
